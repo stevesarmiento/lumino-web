@@ -6,8 +6,8 @@ import PlausibleProvider from 'next-plausible'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lumo",
-  description: "Simple, versatile, nostalgic",
+  title: "Lumino",
+  description: "Turn your iPhone into a night light",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <PlausibleProvider domain="shotwithlumo.com" />
+        <PlausibleProvider domain="luminoapp.com" />
       </head>
         <body className={inter.className}>{children}</body>
     </html>
