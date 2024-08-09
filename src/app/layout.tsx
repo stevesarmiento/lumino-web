@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <PlausibleProvider domain="luminoapp.com" />
+        <PlausibleProvider domain="luminoapp.xyz" />
       </head>
         <body className={inter.className}>{children}</body>
     </html>
