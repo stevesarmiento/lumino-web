@@ -3,9 +3,9 @@ import ScrambleText from "@/components/ScrambleText";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-black">
+    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gradient-to-b from-yellow-50 to-indigo-100">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <div className="flex flex-col items-start justify-center gap-x-2">
+        <div className="flex flex-col items-start justify-center gap-y-2">
           <Image
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-[16px] shadow-lg shadow-black/70"
               src="/img/lumino-appicon.png"
@@ -14,13 +14,13 @@ export default function Home() {
               height={37}
               priority
             />
-          <p className="font-medium text-4xl text-white/90">
+          <p className="font-medium text-4xl text-black/90">
             <ScrambleText title="Lumino" animationDelay={100} paused={false} once={true} />
           </p> 
-          <p className="font-medium text-xl text-white/90">
+          <p className="font-medium text-xl text-black/90">
             <ScrambleText title="Turn your iPhone into a night light" animationDelay={100} paused={false} once={true} />
           </p> 
-          <a href="/privacy-policy" className="font-medium text-xl text-white/90 underline">
+          <a href="/privacy-policy" className="font-medium text-md text-black/90 underline">
             Privacy Policy
           </a>    
         </div>

@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">Privacy Policy for Lumino</h1>
-      <p className="mb-4">Last updated: [Current Date]</p>
+      <p className="mb-4">Last updated: 9/10/2024</p>
       
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-3">1. Introduction</h2>
